@@ -81,17 +81,13 @@ Aplikasi ini mendukung fitur **CRUD (Create, Read, Update, Delete)** melalui end
 
 ## 🔗 Endpoint API
 
----------------------------------------------------------
-
-| Method | Endpoint        | Deskripsi               |
----------------------------------------------------------
-
-| GET    | /api/books     | Mendapatkan semua buku  |
-| GET    | /api/books/{id} | Mendapatkan buku by ID  |
-| POST   | /api/books     | Menambah buku baru      |
-| PUT    | /api/books/{id} | Mengubah data buku by ID|
-| DELETE | /api/books/{id} | Menghapus buku by ID    |
----------------------------------------------------------
+| **Method** | **Endpoint**       | **Deskripsi**               |
+|------------|--------------------|-----------------------------|
+| GET        | `/api/books`       | Mendapatkan semua buku      |
+| GET        | `/api/books/{id}`  | Mendapatkan buku by ID      |
+| POST       | `/api/books`       | Menambah buku baru          |
+| PUT        | `/api/books/{id}`  | Mengubah data buku by ID    |
+| DELETE     | `/api/books/{id}`  | Menghapus buku by ID        |
 
 ---
 
